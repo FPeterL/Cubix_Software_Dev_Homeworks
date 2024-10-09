@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Build
+Version: 0.1
+Summary: Build automazizálás házi feladat
+Home-page: https://github.com/FPeterL/Cubix_Software_Dev_Homeworks
+Author: Fehér Péter
+Author-email: feher.peter.lazlo@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
