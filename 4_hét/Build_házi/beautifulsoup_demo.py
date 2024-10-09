@@ -1,4 +1,4 @@
-#pip install -r requirements.txt
+#pip install -r requirements.txt --alternatív mód a könyvtárak telepítésére
 
 import requests
 from bs4 import BeautifulSoup
