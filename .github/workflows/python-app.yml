@@ -25,8 +25,8 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest
+
       - name: Run unit tests
-        run:  cd 4_hét/Integracio_hazi  # Lépj be a megfelelő könyvtárba
-              python -m unittest BMIUnittest.py
+        run: cd 4_hét/Integracio_hazi && python -m unittest BMIUnittest.py
 
         continue-on-error: false
