@@ -26,6 +26,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
       - name: Run unit tests
-        run: python -m unittest discover -s 4_hét/Integracio_hazi
+        run: python -m unittest 4_hét/Integracio_hazi/BMIUnittest.py
 
         continue-on-error: false
