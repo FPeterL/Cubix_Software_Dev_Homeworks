@@ -1,7 +1,7 @@
-def calc(súly,magasság):
+def calc(weight,height):
 
-    if isinstance(magasság, int) :
-        magasság = magasság / 100
+    if isinstance(height, int) :
+        height = height / 100
 
-    bmi = súly / magasság ** 2
+    bmi = weight / height ** 2
     return bmi

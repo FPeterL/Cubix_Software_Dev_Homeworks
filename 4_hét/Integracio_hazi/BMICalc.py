@@ -1,19 +1,19 @@
 import BMILib as bmi
 
-magasság= input("Add meg a magasságod: ")
-súly= input("Add meg a súlyodat: ")
+height= input("Add meg a magasságod: ")
+weight= input("Add meg a súlyodat: ")
 
 try:
-    magasság = int(magasság)
-    súly = float(súly)
+    height = int(height)
+    weight = float(weight)
 except ValueError:
     try:
-        magasság = float(magasság)
-        súly = float(súly)
+        height = float(height)
+        weight = float(weight)
     except ValueError:
         pass
 
-print(f"A BMI értéked: {bmi.calc(súly=súly,magasság=magasság):.2f}")
+print(f"A BMI értéked: {bmi.calc(weight=weight,height=height):.2f}")
 
 
 
