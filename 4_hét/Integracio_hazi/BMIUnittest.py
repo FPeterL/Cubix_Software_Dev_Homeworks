@@ -1,5 +1,6 @@
 import unittest
 from BMILib import calc
+import pytest
 
 class TestBMICalc(unittest.TestCase):
 
