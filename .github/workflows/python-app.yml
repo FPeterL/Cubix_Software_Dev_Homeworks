@@ -25,7 +25,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest
-      - name: Run BMI Unit Test
-        run: python 4_hét/Integracio_hazi/BMIUnittest.py
+      - name: Run unit tests
+        run: python -m unittest discover -s 4_hét/Integracio_hazi
 
         continue-on-error: false
