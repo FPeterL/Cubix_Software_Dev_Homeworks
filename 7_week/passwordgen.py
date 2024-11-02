@@ -1,24 +1,28 @@
+"""This module contains a function to generate a random password."""
+
 import random
 import string
-import os
 
 
 def passwordgen(length):
+    """Generate a random password with a given length.
+
+    Args:
+        length (int): The desired length of the password.
+
+    Returns:
+        str: The generated password.
+    """
     pass_chars = string.ascii_letters + string.digits + "!@#$%^&*()"
 
-
     password = ""
-    for i in range(length):
+    for _ in range(length):
         char = random.choice(pass_chars)
-        password = password + char
+        password += char
 
     if length <= 8:
-        print("Figyelem: A jelszó túl rövid lehet.")
-
+        print("Attention!: The password may be too short!")
     return password
 
-
-# Nem használt változó
-default_length = 12
 
 print(passwordgen(10))
